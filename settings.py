@@ -1,12 +1,14 @@
+import os
+
 # DATABASE
-DB_HOST = 'localhost'
-DB_NAME = 'ibge_import'
-DB_USER = 'postgres'
-DB_PASSWORD = 'postgres'
+DB_HOST = os.environ['IBGE_DB_HOST']
+DB_NAME = os.environ['IBGE_DB_NAME']
+DB_USER = os.environ['IBGE_DB_USER']
+DB_PASSWORD = os.environ['IBGE_DB_PASSWORD']
 
 # PATH TO THE IBGE SHAPEFILES
-SHP_PATH = ''
+SHP_PATH = os.environ['IBGE_SHP_PATH']
 
 # MAPBOX ACCOUNT
-MAPBOX_TOKEN = ''
-MAPBOX_USERNAME = ''
+MAPBOX_TOKEN = os.environ['MAPBOX_TOKEN']
+MAPBOX_USERNAME = os.environ['MAPBOX_USERNAME']

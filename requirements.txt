@@ -1,0 +1,4 @@
+GeoAlchemy2==0.4.0
+psycopg2=2.7.3.2
+requests==2.18.4
+SQLAlchemy==1.1.14
