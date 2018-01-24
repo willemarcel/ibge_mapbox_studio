@@ -1,6 +1,12 @@
-MAPBOX_TOKEN = ''
-MAPBOX_USERNAME = ''
+# DATABASE
 DB_HOST = 'localhost'
 DB_NAME = 'ibge_import'
 DB_USER = 'postgres'
 DB_PASSWORD = 'postgres'
+
+# PATH TO THE IBGE SHAPEFILES
+SHP_PATH = ''
+
+# MAPBOX ACCOUNT
+MAPBOX_TOKEN = ''
+MAPBOX_USERNAME = ''
