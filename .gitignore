@@ -45,4 +45,5 @@ Desktop.ini
 #js
 node_modules/
 
+settings.py
 data/*
