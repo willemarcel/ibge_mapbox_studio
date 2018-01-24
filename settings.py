@@ -1,0 +1,6 @@
+MAPBOX_TOKEN = ''
+MAPBOX_USERNAME = ''
+DB_HOST = 'localhost'
+DB_NAME = 'ibge_import'
+DB_USER = 'postgres'
+DB_PASSWORD = 'postgres'
